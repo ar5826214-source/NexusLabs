@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ── Meta ── -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── SEO ── -->
+  <title>NexusLabs — Digital Marketing Agency | SEO, Web Design & Paid Ads</title>
+  <meta name="description" content="NexusLabs is a results-driven digital marketing agency offering SEO, social media management, web design, and paid advertising. We turn clicks into real revenue." />
+  <meta name="keywords" content="digital marketing agency, SEO services, social media management, web design, paid ads, PPC, Google Ads, Meta Ads" />
+  <meta name="author" content="NexusLabs" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourdomain.com/" />
+
+  <!-- ── Open Graph (Social Sharing) ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="NexusLabs — Digital Marketing Agency" />
+  <meta property="og:description" content="SEO, Social Media, Web Design & Paid Ads — all under one roof. Built for businesses that want results, not just reports." />
+  <meta property="og:image" content="https://yourdomain.com/images/og-image.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+  <meta property="og:site_name" content="NexusLabs" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="NexusLabs — Digital Marketing Agency" />
+  <meta name="twitter:description" content="SEO, Social Media, Web Design & Paid Ads — all under one roof." />
+  <meta name="twitter:image" content="https://yourdomain.com/images/og-image.jpg" />
+
+  <!-- ── Favicon ── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23c8f065'/><text x='6' y='23' font-family='sans-serif' font-size='18' font-weight='900' fill='%230a0a0b'>N</text></svg>" />
+
+  <!-- ── Performance: Preconnect fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- ── Stylesheets ── -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/components.css" />
+
+  <!-- ── Structured Data (JSON-LD) ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "NexusLabs",
+    "description": "Digital marketing agency offering SEO, social media management, web design, and paid advertising.",
+    "url": "https://yourdomain.com",
+    "telephone": "+1-555-000-0000",
+    "email": "hello@nexuslabs.co",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "US"
+    },
+    "sameAs": [
+      "https://twitter.com/nexuslabs",
+      "https://linkedin.com/company/nexuslabs",
+      "https://instagram.com/nexuslabs"
+    ],
+    "offers": [
+      { "@type": "Offer", "name": "SEO & Content Marketing" },
+      { "@type": "Offer", "name": "Social Media Management" },
+      { "@type": "Offer", "name": "Web Design & Development" },
+      { "@type": "Offer", "name": "Paid Advertising (PPC)" }
+    ]
+  }
+  </script>
+</head>
+
+<body class="noise">
+
+  <!-- ════════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════════ -->
+  <header>
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <div class="container">
+        <div class="nav__inner">
+
+          <!-- Logo -->
+          <a href="index.html" class="nav__logo" aria-label="NexusLabs home">
+            <div class="nav__logo-mark" aria-hidden="true">N</div>
+            Nexus<span>Labs</span>
+          </a>
+
+          <!-- Desktop Links -->
+          <ul class="nav__links" role="list">
+            <li><a href="index.html" class="nav__link active">Home</a></li>
+            <li class="nav__dropdown-wrap">
+              <a href="services.html" class="nav__link">
+                Services
+                <svg class="nav__dropdown-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </a>
+              <div class="nav__dropdown" role="menu">
+                <a href="services.html#seo" role="menuitem">SEO & Content</a>
+                <a href="services.html#social" role="menuitem">Social Media</a>
+                <a href="services.html#web" role="menuitem">Web Design</a>
+                <a href="services.html#ads" role="menuitem">Paid Ads</a>
+              </div>
+            </li>
+            <li><a href="index.html#process" class="nav__link">Process</a></li>
+            <li><a href="index.html#pricing" class="nav__link">Pricing</a></li>
+            <li><a href="contact.html" class="nav__link">Contact</a></li>
+          </ul>
+
+          <!-- CTA + Burger -->
+          <div class="nav__actions">
+            <a href="contact.html" class="btn btn-primary nav__cta">
+              Book Free Call
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <button class="nav__burger" aria-label="Toggle menu" aria-expanded="false">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="nav__mobile" role="dialog" aria-label="Mobile navigation">
+        <a href="index.html" class="nav__mobile-link active">Home</a>
+        <button class="nav__mobile-link" data-sub="mob-services">Services ↓</button>
+        <div class="nav__mobile-sub" id="mob-services">
+          <a href="services.html#seo">SEO & Content</a>
+          <a href="services.html#social">Social Media</a>
+          <a href="services.html#web">Web Design</a>
+          <a href="services.html#ads">Paid Ads</a>
+        </div>
+        <a href="index.html#process" class="nav__mobile-link">Process</a>
+        <a href="index.html#pricing" class="nav__mobile-link">Pricing</a>
+        <a href="contact.html" class="nav__mobile-link">Contact</a>
+        <div class="nav__mobile-cta">
+          <a href="contact.html" class="btn btn-primary" style="width:100%;justify-content:center;">Book Free Call →</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ════════════════════════════════════════════
+         HERO SECTION
+    ════════════════════════════════════════════ -->
+    <section class="hero grid-bg" id="hero" aria-label="Hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+
+      <div class="hero__eyebrow reveal">
+        <span class="badge">Digital Growth Agency</span>
+      </div>
+
+      <h1 class="hero__title reveal reveal-delay-1">
+        We Turn Clicks<br>Into <em>Real Revenue</em>
+      </h1>
+
+      <p class="hero__sub reveal reveal-delay-2">
+        SEO, social media, web design, and paid ads — all under one roof.
+        Built for businesses that want results, not just reports.
+      </p>
+
+      <div class="hero__btns reveal reveal-delay-3">
+        <a href="#pricing" class="btn btn-primary">
+          See Pricing
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="services.html" class="btn btn-outline">Explore Services</a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero__stats reveal reveal-delay-4">
+        <div class="stat" style="text-align:center">
+          <div class="hero__stat-num"><span data-count="0" data-suffix="+">0+</span></div>
+          <div class="hero__stat-label">Clients Served</div>
+        </div>
+        <div class="stat" style="text-align:center">
+          <div class="hero__stat-num"><span data-count="0" data-suffix="×">0×</span></div>
+          <div class="hero__stat-label">Avg. ROI</div>
+        </div>
+        <div class="stat" style="text-align:center">
+          <div class="hero__stat-num"><span data-count="0" data-suffix="%">0%</span></div>
+          <div class="hero__stat-label">Retention Rate</div>
+        </div>
+        <div class="stat" style="text-align:center">
+          <div class="hero__stat-num"><span data-count="0" data-suffix="yr">0yr</span></div>
+          <div class="hero__stat-label">In Business</div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         MARQUEE
+    ════════════════════════════════════════════ -->
+    <div class="marquee-section" aria-hidden="true">
+      <div class="marquee__track">
+        <!-- Repeated twice for seamless loop -->
+        <div class="marquee__item">SEO Optimization <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Social Media Marketing <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Web Design & Development <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Google Ads <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Meta Ads <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Content Marketing <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Brand Strategy <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Lead Generation <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Email Campaigns <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Conversion Optimisation <div class="marquee__dot"></div></div>
+        <div class="marquee__item">SEO Optimization <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Social Media Marketing <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Web Design & Development <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Google Ads <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Meta Ads <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Content Marketing <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Brand Strategy <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Lead Generation <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Email Campaigns <div class="marquee__dot"></div></div>
+        <div class="marquee__item">Conversion Optimisation <div class="marquee__dot"></div></div>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════════════════
+         SERVICES OVERVIEW
+    ════════════════════════════════════════════ -->
+    <section class="section" id="services" aria-label="Services">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">What We Do</p>
+          <h2 class="section-heading">Services Designed<br>to <em>Drive Growth</em></h2>
+          <p class="section-sub">Every service is engineered around one goal — bringing you more qualified clients and measurable ROI.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- SEO -->
+          <article class="service-card reveal reveal-delay-1" role="article">
+            <div class="service-card__number">01 / 04</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+            </div>
+            <h3 class="service-card__title">SEO & Content Marketing</h3>
+            <p class="service-card__desc">Get to page one and stay there. We combine deep technical audits, strategic content, and authoritative link building to drive compounding organic growth.</p>
+            <div class="service-card__tags">
+              <span class="service-card__tag">Technical SEO</span>
+              <span class="service-card__tag">Link Building</span>
+              <span class="service-card__tag">Content Strategy</span>
+            </div>
+            <a href="services.html#seo" class="service-card__link" aria-label="Learn more about SEO">
+              Learn more
+              <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- Social Media -->
+          <article class="service-card reveal reveal-delay-2" role="article">
+            <div class="service-card__number">02 / 04</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </div>
+            <h3 class="service-card__title">Social Media Management</h3>
+            <p class="service-card__desc">Consistent, on-brand content that builds real communities. We manage posting, engagement, growth strategy and analytics across all major platforms.</p>
+            <div class="service-card__tags">
+              <span class="service-card__tag">Instagram</span>
+              <span class="service-card__tag">LinkedIn</span>
+              <span class="service-card__tag">TikTok</span>
+              <span class="service-card__tag">Facebook</span>
+            </div>
+            <a href="services.html#social" class="service-card__link" aria-label="Learn more about social media">
+              Learn more
+              <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- Web Design -->
+          <article class="service-card reveal reveal-delay-1" role="article">
+            <div class="service-card__number">03 / 04</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="service-card__title">Web Design & Development</h3>
+            <p class="service-card__desc">High-converting websites built from scratch. Beautiful, blazing fast, SEO-ready — designed to turn visitors into customers from day one.</p>
+            <div class="service-card__tags">
+              <span class="service-card__tag">UI/UX Design</span>
+              <span class="service-card__tag">Mobile-First</span>
+              <span class="service-card__tag">Performance</span>
+            </div>
+            <a href="services.html#web" class="service-card__link" aria-label="Learn more about web design">
+              Learn more
+              <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <!-- Paid Ads -->
+          <article class="service-card reveal reveal-delay-2" role="article">
+            <div class="service-card__number">04 / 04</div>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+            </div>
+            <h3 class="service-card__title">Paid Ads (PPC)</h3>
+            <p class="service-card__desc">Precision-targeted Google, Meta, and LinkedIn campaigns. We minimise your cost per acquisition and maximise qualified leads with data-driven optimisation.</p>
+            <div class="service-card__tags">
+              <span class="service-card__tag">Google Ads</span>
+              <span class="service-card__tag">Meta Ads</span>
+              <span class="service-card__tag">LinkedIn Ads</span>
+            </div>
+            <a href="services.html#ads" class="service-card__link" aria-label="Learn more about paid ads">
+              Learn more
+              <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         PROCESS
+    ════════════════════════════════════════════ -->
+    <section class="section" id="process" aria-label="Our process" style="background:var(--clr-bg2);border-top:1px solid var(--clr-border);border-bottom:1px solid var(--clr-border)">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">How It Works</p>
+          <h2 class="section-heading">From Strategy to<br><em>Results in 4 Steps</em></h2>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-step reveal reveal-delay-1">
+            <div class="process-step__num" aria-hidden="true">01</div>
+            <h3 class="process-step__title">Discovery Call</h3>
+            <p class="process-step__desc">We learn your business, goals, and current pain points in a focused 30-minute strategy call. No fluff.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-2">
+            <div class="process-step__num" aria-hidden="true">02</div>
+            <h3 class="process-step__title">Custom Strategy</h3>
+            <p class="process-step__desc">We build a tailored growth plan specific to your industry, budget, and competitive landscape.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-3">
+            <div class="process-step__num" aria-hidden="true">03</div>
+            <h3 class="process-step__title">Execution</h3>
+            <p class="process-step__desc">Campaigns go live, content is published, and sites launch. We handle everything end-to-end.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-4">
+            <div class="process-step__num" aria-hidden="true">04</div>
+            <h3 class="process-step__title">Report & Scale</h3>
+            <p class="process-step__desc">Monthly reports with clear ROI tracking. We optimise continuously and scale what's working.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         WHY US
+    ════════════════════════════════════════════ -->
+    <section class="section" id="why" aria-label="Why choose us">
+      <div class="container">
+        <div style="display:grid;grid-template-columns:1fr;gap:3rem;align-items:center" class="why-layout">
+          <div class="reveal">
+            <p class="section-label">Why NexusLabs</p>
+            <h2 class="section-heading">Not Just Another<br><em>Agency</em></h2>
+            <p class="section-sub" style="margin-bottom:2rem">We embed ourselves in your business, operate with radical transparency, and obsess over results. Here's what makes us different.</p>
+            <a href="contact.html" class="btn btn-outline">Talk to Us →</a>
+          </div>
+          <div class="why-grid reveal reveal-delay-1">
+            <div class="why-item">
+              <div class="why-item__check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><h4 class="why-item__title">No Long Contracts</h4><p class="why-item__desc">Month-to-month plans. Stay because you love the results, not because you're trapped.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-item__check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><h4 class="why-item__title">Full Transparency</h4><p class="why-item__desc">Live dashboards. You always know exactly what we're doing and what it's delivering.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-item__check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><h4 class="why-item__title">Dedicated Manager</h4><p class="why-item__desc">One real human who knows your account inside out. No tickets, no queues.</p></div>
+            </div>
+            <div class="why-item">
+              <div class="why-item__check" aria-hidden="true"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <div><h4 class="why-item__title">Results Guaranteed</h4><p class="why-item__desc">Miss KPIs in 90 days? You don't pay for that month. We back it up.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         PRICING
+    ════════════════════════════════════════════ -->
+    <section class="section" id="pricing" aria-label="Pricing" style="background:var(--clr-bg2);border-top:1px solid var(--clr-border);border-bottom:1px solid var(--clr-border)">
+      <div class="container">
+        <div class="pricing-header reveal">
+          <div>
+            <p class="section-label">Pricing</p>
+            <h2 class="section-heading">Simple,<br><em>Transparent</em> Pricing</h2>
+            <p class="section-sub">No surprises. No hidden fees.</p>
+          </div>
+          <div class="pricing-toggle" role="group" aria-label="Billing period">
+            <button class="pricing-toggle__btn active" data-period="monthly" aria-pressed="true">Monthly</button>
+            <button class="pricing-toggle__btn" data-period="yearly" aria-pressed="false">
+              Yearly <span class="save-pill">Save 20%</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+
+          <!-- Starter -->
+          <div class="price-card reveal reveal-delay-1">
+            <div class="price-card__tier">Starter</div>
+            <p class="price-card__desc">Perfect for small businesses getting started online.</p>
+            <div class="price-card__amount">
+              <span class="price-card__currency">$</span>
+              <span class="price-card__num" data-monthly="499" data-yearly="399">499</span>
+              <span class="price-card__period">/mo</span>
+            </div>
+            <div class="price-card__divider"></div>
+            <ul class="price-card__features" aria-label="Starter plan features">
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>SEO audit & on-page setup</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>10 social posts / month</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>1 landing page design</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Monthly performance report</li>
+              <li class="price-card__feature price-card__feature--dim"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Paid ad management</li>
+              <li class="price-card__feature price-card__feature--dim"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Dedicated account manager</li>
+            </ul>
+            <a href="contact.html?plan=starter" class="price-card__btn price-card__btn--outline">Get Started</a>
+          </div>
+
+          <!-- Pro (featured) -->
+          <div class="price-card price-card--featured reveal reveal-delay-2">
+            <div class="price-card__badge" aria-label="Most popular plan">Most Popular</div>
+            <div class="price-card__tier">Pro</div>
+            <p class="price-card__desc">For growing businesses ready to scale aggressively.</p>
+            <div class="price-card__amount">
+              <span class="price-card__currency">$</span>
+              <span class="price-card__num" data-monthly="999" data-yearly="799">999</span>
+              <span class="price-card__period">/mo</span>
+            </div>
+            <div class="price-card__divider"></div>
+            <ul class="price-card__features" aria-label="Pro plan features">
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Full SEO management</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>25 social posts / month</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Full website build</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Paid ads up to $1k budget</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Bi-weekly strategy reports</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Dedicated account manager</li>
+            </ul>
+            <a href="contact.html?plan=pro" class="price-card__btn price-card__btn--solid">Get Started</a>
+          </div>
+
+          <!-- Agency -->
+          <div class="price-card reveal reveal-delay-3">
+            <div class="price-card__tier">Agency</div>
+            <p class="price-card__desc">Full-service suite for established brands & enterprises.</p>
+            <div class="price-card__amount">
+              <span class="price-card__currency">$</span>
+              <span class="price-card__num" data-monthly="1,999" data-yearly="1,599">1,999</span>
+              <span class="price-card__period">/mo</span>
+            </div>
+            <div class="price-card__divider"></div>
+            <ul class="price-card__features" aria-label="Agency plan features">
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Everything in Pro</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Unlimited social content</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Paid ads $5k+ budget</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Weekly strategy calls</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Priority 24/7 support</li>
+              <li class="price-card__feature"><span class="price-card__feat-check" aria-hidden="true"><svg viewBox="0 0 12 12"><polyline points="10 3 5 9 2 6"/></svg></span>Custom integrations</li>
+            </ul>
+            <a href="contact.html?plan=agency" class="price-card__btn price-card__btn--outline">Get Started</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         TESTIMONIALS
+    ════════════════════════════════════════════ -->
+    <section class="section" id="testimonials" aria-label="Client testimonials">
+      <div class="container">
+        <div class="reveal">
+          <p class="section-label">Client Results</p>
+          <h2 class="section-heading">Businesses That<br><em>Grew With Us</em></h2>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <article class="testi-card reveal reveal-delay-1">
+            <span class="testi-card__quote-mark" aria-hidden="true">"</span>
+            <div class="testi-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-card__text">"Rate us .."</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar" aria-hidden="true">A</div>
+              <div>
+                <div class="testi-card__name"></div>
+                <div class="testi-card__role"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card reveal reveal-delay-2">
+            <span class="testi-card__quote-mark" aria-hidden="true">"</span>
+            <div class="testi-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-card__text">"Rate us .."</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar" aria-hidden="true">B</div>
+              <div>
+                <div class="testi-card__name"></div>
+                <div class="testi-card__role"></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testi-card reveal reveal-delay-3">
+            <span class="testi-card__quote-mark" aria-hidden="true">"</span>
+            <div class="testi-card__stars" aria-label="5 stars">★★★★★</div>
+            <p class="testi-card__text">"Rate us .."</p>
+            <div class="testi-card__author">
+              <div class="testi-card__avatar" aria-hidden="true">C</div>
+              <div>
+                <div class="testi-card__name"></div>
+                <div class="testi-card__role"></div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         CTA SECTION
+    ════════════════════════════════════════════ -->
+    <section class="section cta-section" aria-label="Call to action">
+      <div class="cta-section__glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="cta-section__inner reveal">
+          <p class="section-label" style="justify-content:center;display:flex">Ready to Grow?</p>
+          <h2 class="cta-section__title">Let's Build Something<br>Worth Talking About</h2>
+          <p class="cta-section__sub">Book a free 30-minute strategy call. We'll audit your current digital presence and show you exactly where the growth opportunities are hiding.</p>
+          <div class="cta-btns">
+            <a href="contact.html" class="btn btn-primary">
+              Book Free Strategy Call
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="services.html" class="btn btn-outline">View All Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Brand -->
+        <div>
+          <a href="index.html" class="nav__logo" aria-label="NexusLabs home">
+            <div class="nav__logo-mark" aria-hidden="true">N</div>
+            Nexus<span>Labs</span>
+          </a>
+          <p class="footer__brand-desc">A results-driven digital agency helping ambitious businesses grow online through SEO, social media, web design, and precision paid advertising.</p>
+          <div class="footer__socials" aria-label="Social media links">
+            <a href="#" class="footer__social" aria-label="Twitter / X">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" class="footer__social" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="footer__social" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h3 class="footer__col-title">Services</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="services.html#seo" class="footer__link">SEO & Content</a></li>
+            <li><a href="services.html#social" class="footer__link">Social Media</a></li>
+            <li><a href="services.html#web" class="footer__link">Web Design</a></li>
+            <li><a href="services.html#ads" class="footer__link">Paid Ads</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="footer__col-title">Company</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="index.html#why" class="footer__link">About Us</a></li>
+            <li><a href="index.html#process" class="footer__link">Our Process</a></li>
+            <li><a href="index.html#testimonials" class="footer__link">Results</a></li>
+            <li><a href="index.html#pricing" class="footer__link">Pricing</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="footer__col-title">Get In Touch</h3>
+          <ul class="footer__links" role="list">
+            <li><a href="mailto:hello@nexuslabs.co" class="footer__link">hello@nexuslabs.co</a></li>
+            <li><a href="tel:+15550000000" class="footer__link">+1 (555) 000-0000</a></li>
+            <li><a href="contact.html" class="footer__link">Book a Call</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">© <span id="footerYear"></span> NexusLabs. All rights reserved.</p>
+        <nav class="footer__legal" aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Scripts (deferred for performance) ── -->
+  <script>
+    document.getElementById('footerYear').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js" defer></script>
+
+  <!-- Why us section responsive layout fix -->
+  <style>
+    @media (min-width: 900px) {
+      .why-layout { grid-template-columns: 1fr 1fr !important; }
+    }
+  </style>
+
+</body>
+</html>
